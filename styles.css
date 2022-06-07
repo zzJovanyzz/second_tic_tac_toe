@@ -1,0 +1,52 @@
+#board{
+    background-color: gray;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+
+
+}
+
+#container{
+    /* border: solid; */
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 650px;
+
+}
+
+#reset{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 45%;
+
+}
+
+#winner{
+    font-size: 48px;
+    margin: auto;
+    margin-left: 30%;
+}
+
+.spot{
+    align-items: center;
+    background-color: white;
+    border: solid;
+    /* flex-shrink: 0; */
+    font-size: 48px;
+    justify-content: center;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+.spot:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
